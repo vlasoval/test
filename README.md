@@ -30,5 +30,12 @@ The project is implemented using Django Rest Framework and have the following AP
 - Execute command `python manage.py runserver`
 - Go to the `http://127.0.0.1:8000/api` to see the the API
 
-## Note
+### Note
 - To see the response in JSON format append to the url the follow query param `?format=json`
+
+### Continuous Integration/Continuous Delivery
+- Github Actions is used as Continuous Integration/Continuous Delivery https://github.com/vlasoval/test/actions
+- Configuration in the file https://github.com/vlasoval/test/blob/master/.github/workflows/django.yml
+- After the code uploaded on github Automated tests are run
+
+
